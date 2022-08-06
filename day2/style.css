@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+.shop {
+  font-family: "Lobster", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 61px;
+  text-align: center;
+  color: #109e97;
+}
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+}
+
+h4 b {
+  font-family: "Verdana";
+  font-size: 25px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #008000;
+}
+.price {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ff0000;
+  text-decoration: line-through;
+}
+
+hr {
+  width: 100%;
+  height: 2px;
+  left: 8px;
+  top: 130px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  background-color: #000000;
+}
+.image {
+  width: 200px;
+  height: 302px;
+  left: 8px;
+  top: 246px;
+  background: url(Inkognito.png);
+  background-size: contain;
+}
+.description {
+  width: 100%;
+  height: 256px;
+  background: #000000;
+  border-radius: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  padding-top: 60px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  color: #ffffff;
+}
+
+h2,
+h4 {
+  text-transform: uppercase;
+}
+
+td,
+th {
+  height: 36px;
+}
+
+form,
+label,
+input {
+  align-content: center;
+}
+.comments {
+  display: inline-block;
+  width: 28%;
+}
+.bookpicture1 {
+  width: 28%;
+  height: 478px;
+  background: url(Inkognito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+.bookpicture2 {
+  width: 28%;
+  height: 478px;
+  background: url(Inkognito.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  display: inline-block;
+}
+.secondSection {
+  /* padding: 20px; */
+  text-align: center;
+  margin: 15px auto;
+}
+
+.sherh {
+  font-size: 24px;
+}
