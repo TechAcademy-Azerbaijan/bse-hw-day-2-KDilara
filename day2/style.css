@@ -111,9 +111,9 @@ input {
   display: inline-block;
 }
 .secondSection {
-  /* padding: 20px; */
   text-align: center;
   margin: 15px auto;
+  font-family: "Roboto", sans-serif;
 }
 
 .sherh {
