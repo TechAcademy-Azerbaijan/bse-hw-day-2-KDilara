@@ -11,9 +11,8 @@
   line-height: 61px;
   text-align: center;
   color: #109e97;
-}
-a {
   text-decoration: none;
+  display: block;
 }
 
 .title {
@@ -31,6 +30,15 @@ h4 b {
   text-decoration: none;
   color: #008000;
 }
+.Regprice {
+  display: inline-block;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #008000;
+}
 .price {
   font-family: "Verdana";
   font-style: normal;
@@ -39,6 +47,7 @@ h4 b {
   line-height: 18px;
   color: #ff0000;
   text-decoration: line-through;
+  display: inline-block;
 }
 
 hr {
@@ -53,6 +62,7 @@ hr {
 .image {
   width: 200px;
   height: 302px;
+  margin-bottom: 5px;
   left: 8px;
   top: 246px;
   background: url(Inkognito.png);
@@ -68,13 +78,14 @@ hr {
   font-size: 18px;
   line-height: 21px;
   text-align: right;
-  padding-top: 60px;
+  padding-top: 10px;
   letter-spacing: 2px;
   word-spacing: 10px;
   color: #ffffff;
 }
 
 h2,
+h3,
 h4 {
   text-transform: uppercase;
 }
@@ -82,6 +93,7 @@ h4 {
 td,
 th {
   height: 36px;
+  border: 1px solid #808080;
 }
 
 form,
@@ -91,18 +103,19 @@ input {
 }
 .comments {
   display: inline-block;
-  width: 28%;
+  width: 33%;
 }
 .bookpicture1 {
-  width: 28%;
+  width: 33%;
   height: 478px;
   background: url(Inkognito.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position-x: left;
   display: inline-block;
 }
 .bookpicture2 {
-  width: 28%;
+  width: 33%;
   height: 478px;
   background: url(Inkognito.png);
   background-repeat: no-repeat;
@@ -117,5 +130,49 @@ input {
 }
 
 .sherh {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.button {
+  width: 120px;
+  height: 50px;
+  background: #109e97;
+  border: 2px solid #767676;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+#comment {
+  width: 261px;
+  height: 156px;
+  background: #ffffff;
+  border: 1px solid #767676;
+  border-radius: 0px;
+}
+#ln {
+  background: #dddddd;
+  border: 1px solid #767676;
+  border-radius: 0px;
+}
+
+.contactInfo {
+  text-decoration: none;
+  list-style-type: none;
+}
+footer {
+  background: #109e97;
+  border-radius: 0px;
+  width: 100%;
+  height: 86px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 25px;
 }
