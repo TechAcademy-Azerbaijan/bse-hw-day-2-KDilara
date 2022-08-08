@@ -186,3 +186,7 @@ footer {
   color: #ffffff;
   padding-top: 25px;
 }
+
+li a{
+    text-decoration: none;
+}
