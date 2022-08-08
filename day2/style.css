@@ -83,7 +83,17 @@ hr {
   word-spacing: 10px;
   color: #ffffff;
 }
-
+.mezmun {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
 h2,
 h3,
 h4 {
